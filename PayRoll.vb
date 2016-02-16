@@ -41,16 +41,3 @@
     Private Sub btnClear_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnClear.Click
         lstPayData.Items.Clear()
     End Sub
-    
-    ----------------------------------------------------------------------------------------------------------------------------------
-    
-        Private Sub btnOK_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnOK.Click
-        Me.Close()
-    End Sub
-
-    Private Sub frmAdditionPage_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
-        txtName.Text = ""
-        numHours.Value = 0
-        numPay.Value = 0
-    End Sub
-    
