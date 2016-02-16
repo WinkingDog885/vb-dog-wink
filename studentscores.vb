@@ -42,16 +42,3 @@
         MessageBox.Show(strResults, "Score Totals")
     End Sub
 End Class
-
---------------------------------------------------------------------------------------------------------------------------------------
-
-
-    Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
-        Me.Close()
-    End Sub
-
-    Private Sub frmEnterScore_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
-        txtStudentName.Text = ""
-        numScore.Value = 0
-    End Sub
-End Class
